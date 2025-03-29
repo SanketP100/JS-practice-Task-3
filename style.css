@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw 4vw;
+    background-color: cadetblue;
+}
+
+nav i{
+    font-size: 2vw;
+    z-index: 99;
+    /* opacity: 1; */
+    transition: all ease 1s;
+    cursor: pointer;
+
+}
+
+#navmenu{
+    height: 100%;
+    width: 35%;
+    background-color: cadetblue;
+    position: absolute;
+    top: 0;
+    right: -35%;
+    transition: all ease 1s;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-left: 8vw;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+
+#navmenu h3{
+    font-size: 2.5vw;
+    line-height: 1.8;
+    cursor: pointer;
+}
+
+header{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(142, 122, 108);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    flex-direction: column;
+}
+
+header h1{
+    font-size: 8vw;
+    margin-top: 12vw;
+}
+
+header h3{
+    font-size: 2vw;
+}
